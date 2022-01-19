@@ -43,7 +43,7 @@ ypos = np.arange(len(categories_by_gross["revenue"]))
 bars = ax1.bar(ypos, categories_by_gross["revenue"].round(3), width=0.50)
 ax1.set_xticks(ypos)
 ax1.set_xticklabels(categories_by_gross["category_name"])
-ax1.set_ylim(ymin=3000, ymax=6000)
+ax1.set_ylim(ymin=3000, ymax=5000)
 ax1.set_title("gross by category", fontsize=14)
 ax1.set_ylabel("gross sales", fontsize=12)
 
